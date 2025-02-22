@@ -1,0 +1,21 @@
+#miniCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #E4E7EC;
+  margin: 26px 0 0;
+  cursor: pointer;
+
+  img {
+    height: 30px;
+    object-fit: contain;
+    margin-bottom: 24px;
+  }
+
+  .name {
+    color: var(--text-color);
+  }
+}

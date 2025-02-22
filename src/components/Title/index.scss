@@ -1,0 +1,18 @@
+#title {
+  margin: 40px 0;
+  .wrapper {
+    display: flex;
+    gap: 16px;
+
+    .line {
+      height: 24px;
+      width: 3px;
+      border-radius: 2px;
+      background-color: #1f9dff;
+    }
+
+    .text {
+      color: var(--text-color);
+    }
+  }
+}

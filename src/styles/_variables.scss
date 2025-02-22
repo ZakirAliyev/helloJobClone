@@ -1,0 +1,59 @@
+$light-bg: #ffffff;
+$light-text: #212944;
+$light-text-1: #000000;
+$light-bg-button: #1F9DFF;
+$light-bg-button-1: #F3F6F9;
+$light-img-invert: none;
+$light-placeholder-input: #979BA2;
+$light-bg-input: #ffffff;
+$light-box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+$light-mini-text: #6A7386;
+$light-bottom-text: #1F9DFF;
+$light-bg-premium: #ECFDF3;
+$light-text-premium: #027A48;
+
+$dark-bg: #081833;
+$dark-text: #ffffff;
+$dark-text-1: #1F9DFF;
+$dark-bg-button: #061E40;
+$dark-bg-button-1: #061E40;
+$dark-img-invert: brightness(0) invert(1);
+$dark-placeholder-input: #fff;
+$dark-bg-input: #061E40;
+$dark-box-shadow: none;
+$dark-mini-text: #ffffff;
+$dark-bottom-text: #ffffff;
+$dark-bg-premium: #ECFDF3;
+$dark-text-premium: #081833;
+
+:root {
+  --bg-color: #{$light-bg};
+  --text-color: #{$light-text};
+  --text-color-1: #{$light-text-1};
+  --bg-button: #{$light-bg-button};
+  --bg-button-1: #{$light-bg-button-1};
+  --img-invert: #{$light-img-invert};
+  --placeholder-input: #{$light-placeholder-input};
+  --bg-input: #{$light-bg-input};
+  --box-shadow: #{$light-box-shadow};
+  --mini-text: #{$light-mini-text};
+  --bottom-text: #{$light-bottom-text};
+  --bg-premium: #{$light-bg-premium};
+  --text-premium: #{$light-text-premium};
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$dark-bg};
+  --text-color: #{$dark-text};
+  --text-color-1: #{$dark-text-1};
+  --bg-button: #{$dark-bg-button};
+  --bg-button-1: #{$dark-bg-button-1};
+  --img-invert: #{$dark-img-invert};
+  --placeholder-input: #{$dark-placeholder-input};
+  --bg-input: #{$dark-bg-input};
+  --box-shadow: #{$dark-box-shadow};
+  --mini-text: #{$dark-mini-text};
+  --bottom-text: #{$dark-bottom-text};
+  --bg-premium: #{$dark-bg-premium};
+  --text-premium: #{$dark-text-premium};
+}

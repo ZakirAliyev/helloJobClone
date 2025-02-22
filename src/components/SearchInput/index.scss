@@ -1,0 +1,19 @@
+#searchInput {
+  input {
+    width: 100%;
+    position: relative;
+    top: -33px;
+    height: 66px;
+    border: none;
+    box-shadow: var(--box-shadow);
+    border-radius: 6px;
+    padding: 0 20px;
+    background-color: var(--bg-input);
+    font-size: 16px;
+    color: var(--placeholder-input);
+
+    &::placeholder {
+      color: var(--placeholder-input);
+    }
+  }
+}
